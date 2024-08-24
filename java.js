@@ -11,10 +11,10 @@ function trafficLight(x){
         console.log("Go")
         break ;
         default :
-        console.log("Dafa hu jahu")
+        console.log("Invalid Input")
     }
 }
-trafficLight("Ayesha")
+trafficLight("Green")
 
 function fruitName(x){
     switch(x)
@@ -39,3 +39,33 @@ function fruitName(x){
     }
 }
 fruitName("Apple")
+
+
+
+
+
+
+//problem ----- 3
+function vhicleName(code){
+    switch(code)
+    {
+        case "c":
+        console.log("C for:: Car")
+        break;
+
+        case "M":
+        console.log("M for:: MotorCycle")
+        break;
+
+        case "T":
+        console.log("T for:: Truck")
+        break;
+
+        case "J":
+        console.log("J for:: Jeep")
+        break;
+        default :
+        console.log("invalid Code Name")
+    }
+}
+vhicleName("J")
